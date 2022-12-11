@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    min-height: 12vh;
+}
+
+main {
+    min-height: 76vh;
+}
+
+/*.con_card {
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.footer {
+    min-height: 12vh;
+    background: #231F20;
+    position: relative;
+    margin-top: 75px;
+}
+
+.footer .container {
+    text-transform: none;
+    font-size: 1.1em;
+    padding: 40px 16px;
+    text-align: center;
+    color: #999;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+
+.column_header flat {
+    display: flex;
+}
